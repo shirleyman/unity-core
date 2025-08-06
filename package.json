@@ -1,0 +1,15 @@
+{
+  "name": "com.orbitalnine.core",
+  "version": "1.0.0",
+  "displayName": "OrbitalNine Core",
+  "description": "A collection of Unity runtime utilities (including singleton pattern) used as core dependencies by other Orbital Nine packages.",
+  "unity": "6.1",
+  "author": {
+    "name": "Shirley Man",
+    "url" : "https://github.com/shirleyman/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shirleyman/unity-core.git"
+  }
+}
