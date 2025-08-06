@@ -1,7 +1,10 @@
-# OrbitalNine Core - A Unity Utility Package
+## Overview
 
-A simple and lightweight Unity package providing essential, reusable components for bootstrapping your games and applications.
+This package (`com.orbitalnine.core`) provides foundational building blocks for common Unity development patterns:
 
+-   **Singleton**: Create a `MonoBehaviour`-based singleton by inheriting from `SingletonMonoBehaviour<T>`.
+-   **Persistence**: The `DontDestroyOnLoad` component provides a way to keep any GameObject alive across scene loads.
+  
 ## Table of Contents
 - [Overview](#overview)
 - [Features](#features)
@@ -11,21 +14,6 @@ A simple and lightweight Unity package providing essential, reusable components 
 - [How To Use](#how-to-use)
 - [Testing](#testing)
 - [License](#license)
-
-## Overview
-
-This package (`com.orbitalnine.core`) provides foundational building blocks for common Unity development patterns:
-
-*   **`SingletonMonoBehaviour<T>`**: A generic abstract class to easily create self-managing singletons.
-*   **`DontDestroyOnLoad`**: A component to make any GameObject persist across scene loads.
-
-These utilities help structure your project's core logic, such as managers, services, and systems that need to be globally accessible and persistent.
-
-## Features
-
--   **Singleton**: Create a `MonoBehaviour`-based singleton by inheriting from `SingletonMonoBehaviour<T>`.
--   **Persistence**: The `DontDestroyOnLoad` component provides a way to keep any GameObject alive across scene loads.
-
 
 ## Dependencies
 
