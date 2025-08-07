@@ -1,13 +1,5 @@
-## Overview
-
-This package (`com.orbitalnine.core`) provides foundational building blocks for common Unity development patterns:
-
--   **Singleton**: Create a `MonoBehaviour`-based singleton by inheriting from `SingletonMonoBehaviour<T>`.
--   **Persistence**: The `DontDestroyOnLoad` component provides a way to keep any GameObject alive across scene loads.
-  
 ## Table of Contents
 - [Overview](#overview)
-- [Features](#features)
 - [Dependencies](#dependencies)
 - [Compatibility](#compatibility)
 - [Installation](#installation)
@@ -15,6 +7,13 @@ This package (`com.orbitalnine.core`) provides foundational building blocks for 
 - [Testing](#testing)
 - [License](#license)
 
+## Overview
+
+This package (`com.orbitalnine.core`) provides foundational building blocks for common Unity development patterns:
+
+-   **Singleton**: Create a `MonoBehaviour`-based singleton by inheriting from `SingletonMonoBehaviour<T>`.
+-   **Persistence**: The `DontDestroyOnLoad` component provides a way to keep any GameObject alive across scene loads.
+  
 ## Dependencies
 
 This package has no external dependencies and relies only on the core Unity Engine libraries.
